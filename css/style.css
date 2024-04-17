@@ -1,0 +1,58 @@
+html, body {
+  background-color: black;
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.site {
+  padding: 20px;
+}
+
+header {}
+
+.logo {
+  margin: 0 auto;
+  padding: 48px;
+  width: 0;
+  font-size: 24px;
+    mix-blend-mode: difference;
+    color: #e2292e;
+}
+.logo > h1 {
+  font-size: 8rem;
+  line-height: 5.8rem;
+  font-weight: bold;
+  transform: translateX(-50%);
+  position: fixed;
+}
+
+.container {
+  margin: 50vh auto 10vh auto;
+  max-width: 1024px;
+}
+
+span.and {
+  margin-left: 6px;
+  font-size: 7.5rem;
+  letter-spacing: -1rem;
+}
+span.ers {
+  letter-spacing: -1rem;
+}
+span.dot {
+  
+}
+span.beauty {
+  display: block;
+  margin-top: 2rem;
+  border-top: 3px solid #fefefe;
+  color: #03c9cf;
+  
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
